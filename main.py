@@ -7,8 +7,7 @@ st.set_page_config(page_title="Stock Dashboard", layout="wide")
 
 st.title("📈 Real-Time Stock Market Dashboard")
 
-API_KEY = "GI0KYZC3W6NUE5D2"
-
+API_KEY = "Your-API-Key"
 # stock selection
 symbol = st.selectbox(
     "Select Stock Symbol",
@@ -60,3 +59,4 @@ else:
     )
 
     st.plotly_chart(fig, use_container_width=True)
+
